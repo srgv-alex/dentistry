@@ -1,0 +1,23 @@
+.btn,
+a.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 80px;
+	background-color: #000000;
+
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+
+	transition: background-color 0.2s ease-in;
+
+	&:hover {
+		background-color: #333;
+	}
+
+	&--wide {
+		width: 100%;
+	}
+}

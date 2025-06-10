@@ -1,0 +1,27 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Stem', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #000;
+}
+
+a,
+a:link,
+a:visited {
+	color: #0f7dff;
+	text-decoration: underline;
+}
+
+a:focus,
+button:focus {
+	outline-offset: 1px;
+	outline: #005fcc auto 1px;
+}
+
+p + p {
+	margin-top: 1em;
+}
