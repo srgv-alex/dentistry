@@ -1,9 +1,69 @@
-.stem {
-	font-family: 'Stem', sans-serif;
+.header {
 }
-.gilroy {
-	font-family: 'Gilroy', sans-serif;
+.header-top {
+	padding-block: 26px;
 }
-.adeezze {
-	font-family: 'ABeeZee', sans-serif;
+
+.header-top__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	a {
+		text-decoration: none;
+	}
+}
+.header-logo {
+	display: flex;
+	align-items: center;
+	column-gap: 12px;
+}
+
+.logo__text {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.14286;
+	color: #000;
+}
+.header__inner {
+	display: flex;
+	align-items: center;
+}
+.header-nav {
+	margin-right: 63px;
+	a {
+		font-size: 18px;
+		text-decoration: none;
+		color: rgba(0, 0, 0, 0.7);
+		transition: 0.2s ease-in;
+		&:hover {
+			color: rgba(0, 0, 0, 0.363);
+		}
+	}
+}
+.nav-list {
+	display: flex;
+	column-gap: 24px;
+}
+
+.header-tel {
+	margin-right: 35px;
+
+	p {
+		text-align: right;
+		font-weight: 700;
+		font-size: 13px;
+		line-height: 1.38462;
+	}
+	.header-link {
+		font-size: 18px;
+		font-weight: 500;
+		color: #000;
+		text-decoration: none;
+		transition: 0.2s ease-in;
+		&:hover {
+			color: rgba(0, 0, 0, 0.363);
+		}
+	}
+}
+.header-link {
 }

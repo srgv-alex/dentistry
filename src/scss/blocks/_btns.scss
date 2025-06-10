@@ -1,12 +1,12 @@
 .btn,
 a.btn {
 	display: inline-block;
-	padding: 10px 20px;
-	border-radius: 80px;
-	background-color: #000000;
+	padding: 16px 32px;
+	border-radius: 6px;
+	background-color: #00bdf8;
 
-	font-size: 16px;
-	font-weight: 700;
+	font-size: 18px;
+	font-weight: 500;
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
@@ -19,5 +19,14 @@ a.btn {
 
 	&--wide {
 		width: 100%;
+	}
+}
+
+.header-btn {
+	padding: 12px 28px;
+	font-size: 15px;
+	transition: 0.2s ease-in;
+	&:hover {
+		background-color: #1585a7;
 	}
 }

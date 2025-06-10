@@ -1,9 +1,11 @@
-.logo, a.logo, a.logo:link {
-	font-size: 28px;
-	font-weight: 700;
-	text-decoration: none;
-
-	a {
-		text-decoration: none;
+.logo,
+a.logo,
+a.logo:link {
+	width: 34px;
+	height: 32px;
+	fill: #5552e8;
+	transition: 0.2s ease-in;
+	&:hover {
+		fill: #2a2885;
 	}
 }
