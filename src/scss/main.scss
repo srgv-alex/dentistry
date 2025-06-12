@@ -8,6 +8,9 @@
 // Секции
 @use './blocks/sticky-footer';
 @use './blocks/header';
+@use './blocks/team';
+@use './blocks/about';
+@use './blocks/advantages';
 @use './blocks/footer';
 
 // Блоки, Элементы
@@ -20,6 +23,7 @@
 @use './blocks/title';
 @use './blocks/hero';
 @use './blocks/mobile-nav';
+@use './blocks/icons';
 
 // Скрипты
 

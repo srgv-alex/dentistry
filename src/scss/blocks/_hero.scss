@@ -1,15 +1,26 @@
 .hero {
-	height: 100vh;
+	position: relative;
+	height: calc(100vh - 101px);
 	padding-block: 240px;
 	display: flex;
 	justify-content: center;
 	align-items: top;
 	background: url(./../img/hero/hero.webp) bottom/cover no-repeat;
-	@media (max-width: 991px) {
-	}
+}
+
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(26, 35, 110, 0.5);
 }
 
 .hero-content {
+	position: relative;
+	z-index: 2;
 	padding-top: 30px;
 	max-width: 920px;
 	margin: 0 auto;
@@ -42,10 +53,4 @@
 		flex-direction: column;
 		row-gap: 25px;
 	}
-}
-.btn {
-}
-.hero-btn {
-}
-.btn-white {
 }
