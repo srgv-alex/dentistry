@@ -2,6 +2,16 @@
 	h2 {
 		margin-bottom: 64px;
 		text-align: center;
+		@media (max-width: 800px) {
+			margin-bottom: 30px;
+			font-size: 30px;
+		}
+	}
+}
+
+.advantages.section {
+	@media (max-width: 800px) {
+		padding-block: 50px;
 	}
 }
 
@@ -15,10 +25,19 @@
 .advantages-items {
 	display: flex;
 	gap: 30px;
+	@media (max-width: 1199px) {
+		flex-wrap: wrap;
+	}
 }
 .advantages-item {
-	max-width: 260px;
+	flex-basis: 255px;
 	text-align: center;
+	@media (max-width: 1199px) {
+		flex-basis: 48%;
+	}
+	@media (max-width: 800px) {
+		flex-basis: 100%;
+	}
 }
 .percent {
 	display: flex;
@@ -31,8 +50,7 @@
 	box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.1);
 	margin-bottom: 32px;
 }
-.advantages-item__content {
-}
+
 .item__title {
 	margin-bottom: 16px;
 	font-size: 28px;
