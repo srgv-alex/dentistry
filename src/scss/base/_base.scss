@@ -17,12 +17,6 @@ a:visited {
 	text-decoration: underline;
 }
 
-a:focus,
-button:focus {
-	outline-offset: 1px;
-	outline: #005fcc auto 1px;
-}
-
 p + p {
 	margin-top: 1em;
 }

@@ -4,5 +4,50 @@
 			<h3 class="action-title">Запишитесь на лечение</h3>
 			<p class="action-subtitle">Вы можете легко и просто записаться на лечение</p>
 		</div>
+		<form class="form-wrapper">
+			<!-- <h2 class="form__title">Запишитесь на лечение</h2>
+			<p class="form__subtitle">Вы можете легко и просто записаться на лечение</p> -->
+			<div class="form-group">
+				<label>
+					<input class='input' type="text" name='name' placeholder='Ваше имя' required>
+				</label>
+				<label>
+					<input class='input' type="tel" name='phone' placeholder='+7 (000) 000-0000' required>
+				</label>
+				<label>
+					<input class='input' type="email" name='email' placeholder='E-mail' required>
+				</label>
+			</div>
+			<div class="form-group">
+				<h3 class="form-group__title">Выберите услугу:</h3>
+				<ul class="radio-list">
+					<li>
+						<label>
+							<input type="radio" class='real-radio visually-hidden' name='services' value='Консультация'>
+							<span class='fake-radio'></span>Консультация
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="radio" class='real-radio visually-hidden' name='services'
+								value='Лечение зубов'>
+							<span class='fake-radio'></span>Лечение зубов
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="radio" class='real-radio visually-hidden' name='services'
+								value='Удаление зубов'>
+							<span class='fake-radio'></span>Удаление зубов
+						</label>
+					</li>
+				</ul>
+			</div>
+			<button class="submit-btn btn">Оставить заявку</button>
+			<p class="action-text">Оставляя заявку, вы соглашаетесь на <span class='color'>обработку персональных
+					данных</span> и с <span class='color'>условиями
+					бронирования счёта</span>
+			</p>
+		</form>
 	</div>
 </section>

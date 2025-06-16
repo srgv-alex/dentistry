@@ -14,3 +14,13 @@
 	height: 48px;
 	fill: #00bdf8;
 }
+
+.svg {
+	width: 56px;
+	height: 56px;
+	fill: #00bdf8;
+
+	&:hover {
+		fill: #b2dbe7;
+	}
+}
